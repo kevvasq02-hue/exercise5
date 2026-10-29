@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.navigation {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f47c2c;
+    border: 2px solid #555;
+
+    width: 750px;
+    height: 85px;
+    padding: 0 20px;
+    margin: 200px auto 0;
+    box-sizing: border-box;
+}
+
+.name, .box {
+    display: block;
+    position: relative;
+
+    background-color: #199d9b;
+    border: 2px solid #555;
+    color: white;
+
+    width: 135px;
+    padding: 4px 0;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+
+
+
